@@ -1,1 +1,0 @@
-var t;t=function(){const t=document.body.getAttribute("data-slug");for(let e of document.querySelectorAll(".sidebar-nav li a")){let a=e.getAttribute("data-slug");null!=a&&a===t&&e.classList.add("active")}},"loading"!=document.readyState?t():document.addEventListener("DOMContentLoaded",t);
